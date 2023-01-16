@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
+    "start": "node apps/deno-vless/src/main.ts",
     "build": "nx build",
     "cf-page": "nx build cf-page",
     "test": "nx test"
