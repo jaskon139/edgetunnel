@@ -1,20 +1,25 @@
 # V2ray Edge（Beta）
 
+> 由于 deno deploy 的限制，免费用户目前无法部署。
+> 貌似 Render 封号。
+
+> Due to restrictions of deno deploy, free users can't deploy currently. Please check the Telegram group for more information.
+> https://deno.com/deploy/docs/pricing-and-limits#tls-proxying
+
+> Seems Render also banned this project..
+
 众所周知，V2ray 是基于 `go` 的，导致原版 V2ray 无法部署到基于 `javaScript (V8)` 的平台上。
 
 本项目通过，使用 `js` 实现 `VLESS`协议， 使得 **V2ray** 可以部署到一些 Edge 或者 Serverless 平台上。
 
 > For international user, I write this readme in Chinese. But I understand English pretty well, if you has any issue, please open it in Github.
 
-> 项目正在完善阶段，欢迎大家使用，如果发现 bug， 请开 issue。
-> **请定期按照 github 的提示，同步最新代码。只需要在乎下图红框的提示，其他提示不要点击**。
-> 如果你喜欢自动化，可以使用这个自动同步 fork https://github.com/apps/pull > ![sync](./doc/sync.jpg)
-
-> 同步完成后，如果发现不一样，**请看文档**。
-
 > 本项目纯属技术性验证，探索最新的 web standard。请勿乱用，不给予任何保证。
 
-## V2ray Edge server --- Deno deploy
+## ~~V2ray Edge server --- Deno deploy~~
+
+> 由于 deno deploy 的限制，免费用户目前无法部署。
+> https://deno.com/deploy/docs/pricing-and-limits#tls-proxying
 
 Edge tunnel 的服务使用了 [Deno deploy](https://deno.com/deploy).
 
@@ -25,9 +30,9 @@ Edge tunnel 的服务使用了 [Deno deploy](https://deno.com/deploy).
 
 ### 如何部署服务
 
-请查看下面教程。
+~~请查看下面教程。~~
 
-[Deno deploy Install](./doc/edge-tunnel-deno.md)
+~~[Deno deploy Install](./doc/edge-tunnel-deno.md)~~
 
 ## V2ray Edge server --- Cloudflare Worker （敬请期待）
 
@@ -42,9 +47,11 @@ https://blog.cloudflare.com/introducing-socket-workers/
 
 很多 Node.js 的平台都是支持 docker 的，所以可以直接部署原版。但是既然很多人要，我就写一个。我目前仅仅维护 render 平台的文档。理论上其他平台都一样。
 
-### render.com
+### ~~render.com~~
+> 貌似 Render 封号。
+> Seems Render also banned this project..
 
-[render](./doc/render.md)
+~~[render](./doc/render.md)~~
 
 ### Docker
 
